@@ -4,9 +4,9 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <Link to="/">
-                <p className="text-2xl font-bold">Talentra</p>
+                <p className="text-2xl font-bold text-gradient">Talentra</p>
             </Link>
-            <Link to="/upload">
+            <Link to="/upload" className="primary-button w-fit">
                 Upload Resume
             </Link>
         </nav>
