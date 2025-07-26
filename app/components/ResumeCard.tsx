@@ -7,6 +7,9 @@ const ResumeCard = ({resume}:{resume:Resume}) => {
                 <h2 className="!text-black font-bold break-words">
                     {resume.companyName}
                 </h2>
+                <h3 className="text-lg breakwords text-gray-500">
+                    {resume.jobTitle}
+                </h3>
             </div>
         </Link>
     );
